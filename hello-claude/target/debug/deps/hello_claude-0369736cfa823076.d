@@ -1,0 +1,5 @@
+/Users/vhugo/repos/ai-playground/hello-claude/target/debug/deps/hello_claude-0369736cfa823076.d: src/main.rs
+
+/Users/vhugo/repos/ai-playground/hello-claude/target/debug/deps/libhello_claude-0369736cfa823076.rmeta: src/main.rs
+
+src/main.rs:
