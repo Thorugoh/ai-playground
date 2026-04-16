@@ -1,0 +1,10 @@
+    Updating crates.io index
+error: failed to select a version for `reqwest`.
+    ... required by package `hello-claude v0.1.0 (/Users/vhugo/repos/ai-playground/hello-claude)`
+versions that meet the requirements `^0.12` are: 0.12.28, 0.12.27, 0.12.26, 0.12.25, 0.12.24, 0.12.23, 0.12.22, 0.12.21, 0.12.20, 0.12.19, 0.12.18, 0.12.17, 0.12.16, 0.12.15, 0.12.14, 0.12.13, 0.12.12, 0.12.11, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0
+
+package `hello-claude` depends on `reqwest` with feature `derive` but `reqwest` does not have that feature.
+ available features: __internal_proxy_sys_no_cache, __rustls, __tls, blocking, brotli, charset, cookies, default, default-tls, deflate, futures-channel, gzip, h2, h3, h3-quinn, hickory-dns, http2, json, macos-system-configuration, multipart, native-tls, native-tls-alpn, native-tls-vendored, quinn, rustls-pki-types, rustls-tls, rustls-tls-manual-roots, rustls-tls-native-roots, rustls-tls-webpki-roots, socks, stream, trust-dns
+
+
+failed to select a version for `reqwest` which could resolve this conflict
