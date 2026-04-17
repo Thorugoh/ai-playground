@@ -32,7 +32,7 @@ async fn main() {
     let client = reqwest::Client::new();
 
     let body = Request {
-        model: "claude-sonnet-4-2025-0514".into(),
+        model: "claude-haiku-4-5-20251001".into(),
         max_tokens: 256,
         messages: vec![Message {
             role: "user".into(),
