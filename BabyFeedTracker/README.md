@@ -2,6 +2,18 @@
 
 A proof of concept Android app built entirely by **Gemini in Android Studio** (AI Pro), with zero manual coding. The goal was to evaluate Gemini's agentic capabilities end-to-end: from project brief to a working app.
 
+## Prompt used
+
+> Create an app to track a baby's breastfeeding sessions. Core Tracking Logic:
+>
+> Record the exact start and end time for each overall feeding session.
+>
+> Track which side (Left or Right) is being used.
+>
+> Allow side-switching within a single continuous session (e.g., starting on the Right for 5 minutes, then switching to the Left for 12 minutes).
+>
+> Calculate and display the exact duration spent on each side per session.
+
 ## What was built
 
 A breastfeeding session tracker with the following planned features:
