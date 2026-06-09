@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bottle Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,42 H74 V75 C74,81 68,87 54,87 C40,87 34,81 34,75 V42 Z" />
+    <!-- Bottle Cap -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,32 H68 V42 H40 V32 Z" />
+    <!-- Bottle Nipple -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,32 C47,25 61,25 61,32 Z" />
+    <!-- Measuring Lines -->
+    <path
+        android:strokeColor="#6650a4"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M41,55 H48 M41,65 H48 M41,75 H48" />
+</vector>
+
